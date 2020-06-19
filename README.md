@@ -1,6 +1,6 @@
 # Solar Tracker
 
-Implementing a solar tracking for 2D solar panel system using a OpenCV with C++
+Implementing a solar tracking for 2D solar panel system using C++ and OpenCV
 
 based on and Inspired by : https://www.mdpi.com/1424-8220/16/12/1995
 
