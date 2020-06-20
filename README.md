@@ -36,8 +36,9 @@ git clone git@github.com:AmarYasser/Solar_Tracker_Capstone_CppNd.git
 ## Compiling and Running
 
 ### Compiling
-To compile the project, From within the `build` directory, then run `cmake` and `make` as follows:
+To compile the project, create `build` directory, then run `cmake` and `make`:
 ```
+mkdir build && cd build
 cmake ..
 make
 ```
