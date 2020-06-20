@@ -1,3 +1,0 @@
-/home/ammar/Documents/CPP/Capstone_Project/build/CMakeFiles/rebuild_cache.dir
-/home/ammar/Documents/CPP/Capstone_Project/build/CMakeFiles/edit_cache.dir
-/home/ammar/Documents/CPP/Capstone_Project/build/CMakeFiles/solarTracker.dir
