@@ -83,15 +83,14 @@ Extending the project to an physical system requires the following:
 - corelate the camera and panel centers 
 - Adapt the action with motors style.
 - (option) remove the outVideo functions. 
+- (option) add a function to calculate the distnce between the centers of both sun and camera.
+- (option) add a PID control function to give a smooth PWD control signal to the motors relative to the distance between the centers.
 
 ## Future Considerations
-
 to acquire more clean code with robust performance, upgrade the code involving:
 
 - Using Smart pointers anf move semantics to manage `frame` variable and passing it between functions
 - Extend `dispaly()` and `video` methods to be more generic and not related to a specific class.
-- modify to accept an active camera.
-- add camera caliberation functions.
-- 
-## Rubric 
-this project mainly tackles Loops, Functions, I/O and Object Oriented Programming sections
+- Modify to accept an active camera.
+- Add camera caliberation functions.
+
