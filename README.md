@@ -54,8 +54,9 @@ In the `./resources` folder, you can find some videos for different situations t
 - sunset without clouds
 - sun with clouds interfering
 
-So, You should specify the location of the video in the `main.cpp.
-by default :
+So, You should specify the location of the video in the `main.cpp`.
+
+By default:
 ```
     cv::VideoCapture cap("../resources/sun_no_clouds.mp4");
 ```
@@ -90,7 +91,7 @@ Extending the project to an physical system requires the following:
 to acquire more clean code with robust performance, upgrade the code involving:
 
 - Using Smart pointers anf move semantics to manage `frame` variable and passing it between functions
-- Extend `dispaly()` and `video` methods to be more generic and not related to a specific class.
+- Extend `display()` and `video` methods to be more generic and not related to a specific class.
 - Modify to accept an active camera.
 - Add camera caliberation functions.
 
